@@ -112,13 +112,13 @@ public class BookPackage extends JFrame implements ActionListener{
 		add(t5);
                 
                 dateChooser = new JDateChooser();
-	        dateChooser.setBounds(270, 330, 380, 40);
+	         dateChooser.setBounds(270, 330, 380, 40);
 	        add(dateChooser);
                 
                 l9 = new JLabel();
 		l9.setFont(new Font("Segoe UI Emoji", Font.BOLD, 18));
 		l9.setBounds(270, 380, 380, 40);
-                l9.setForeground(Color.BLUE);
+                l9.setForeground(Color.RED);
                 l9.setBackground(Color.WHITE);
 		add(l9);
                 
